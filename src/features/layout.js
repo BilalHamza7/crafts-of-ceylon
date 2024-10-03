@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
+import Footer from "./home/footer";
 
 export default function Layout() {
   return (
@@ -48,6 +49,8 @@ export default function Layout() {
         </nav>
 
         <Outlet />
+
+        <Footer />
       </div >
     </>
   )
