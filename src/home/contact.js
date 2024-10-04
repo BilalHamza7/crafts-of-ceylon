@@ -16,7 +16,7 @@ export default function Contact() {
             <div className="from-orange-400 from-40% to-orange-600 bg-gradient-to-br flex flex-col items-center min-h-screen">
                 <Navbar />
                 <div className="relative w-full h-64 mt-16">
-                    <img src="/aboutBackground.png" alt="About Background" className="w-full h-full" />
+                    <img src="/contactBackground.png" alt="Contact Background" className="w-full h-full" />
 
                     <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 z-10 ">
                         <p className=" text-white text-4xl font-bold font-inter">

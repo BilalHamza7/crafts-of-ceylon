@@ -5,8 +5,9 @@ import Homepage from './home/homepage';
 import './index.css';
 import About from './home/about';
 import Contact from './home/contact';
-import CustomerLogIn from './authentication/customerLogIn';
-import CustomerSignIn from './authentication/customerSignIn';
+import CustomerLogIn from './customerAuth/customerLogIn';
+import CustomerSignIn from './customerAuth/customerSignIn';
+import Products from './products/products';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/customerLogIn" element={<CustomerLogIn />} />
           <Route path="/customerSignIn" element={<CustomerSignIn />} />
+          <Route path="/products" element={<Products />} />
         </Route>
       </Routes>
     </BrowserRouter>
