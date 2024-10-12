@@ -10,7 +10,7 @@ export default function CustomerLogIn() {
     const [password, setPassword] = useState('');
 
     const handleOnSubmit = () => {
-        navigate('/products');
+        navigate('/customerDashboard');
     };
 
     return (
